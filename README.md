@@ -29,7 +29,7 @@ customer_insights_project/
 ├── full_setup_project.py
 ├── README.md
 └── requirements.txt
-```plaintext
+```
 
 🛠️ Project Setup
 Option 1: Manual Setup
