@@ -4,37 +4,31 @@ Welcome to the Customer Insights Project!
 This project analyzes customer purchase behavior, segments customers, and predicts future purchases using real-world transactional data.
 
 📁 Project Structure
-"""
+```plaintext
 customer_insights_project/
-│
 ├── setup_project.py
-|
 ├── data/
-│   ├── online_retail.xls               # Raw dataset
-│   └── online_retail_cleaned.csv        # Cleaned dataset
-│
+│   ├── online_retail.xls         # Raw dataset
+│   └── online_retail_cleaned.csv # Cleaned dataset
 ├── notebooks/
-│   ├── 0_eda_online_retail.ipynb        # Exploratory Data Analysis (EDA)
-│   ├── 1_data_cleaning.ipynb            # Data cleaning and preprocessing
-│   ├── 2_customer_segmentation.ipynb    # Customer segmentation (clustering)
-│   ├── 3_purchase_prediction.ipynb      # Purchase prediction (classification)
-│
+│   ├── 0_eda_online_retail.ipynb     # Exploratory Data Analysis (EDA)
+│   ├── 1_data_cleaning.ipynb         # Data cleaning and preprocessing
+│   ├── 2_customer_segmentation.ipynb # Customer segmentation (clustering)
+│   └── 3_purchase_prediction.ipynb   # Purchase prediction (classification)
 ├── src/
-│   ├── features.py                      # Feature engineering functions
-│   ├── clustering.py                    # Clustering utilities
-│   ├── classifier.py                    # Classification model utilities
-│
+│   ├── features.py    # Feature engineering functions
+│   ├── clustering.py  # Clustering utilities
+│   └── classifier.py  # Classification model utilities
 ├── visuals/
-│   ├── total_price_distribution.png     # Total price distribution plot
-│   ├── daily_sales.png                  # Daily sales over time plot
-│   └── top_products.png                 # Top 10 products purchased
-│
+│   ├── total_price_distribution.png # Total price distribution plot
+│   ├── daily_sales.png              # Daily sales over time plot
+│   └── top_products.png             # Top 10 products purchased
 ├── results/
-│   ├── customer_segments.csv            # Clustered customer profiles
-│   └── prediction_report.txt            # Classifier performance report
-│
-└── README.md                             # Project overview and how to run it
-"""
+│   ├── customer_segments.csv # Clustered customer profiles
+│   └── prediction_report.txt # Classifier performance report
+├── full_setup_project.py
+├── README.md
+└── requirements.txt
 
 🛠️ Project Setup
 Option 1: Manual Setup
