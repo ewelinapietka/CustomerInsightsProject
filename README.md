@@ -4,7 +4,7 @@ Welcome to the Customer Insights Project!
 This project analyzes customer purchase behavior, segments customers, and predicts future purchases using real-world transactional data.
 
 📁 Project Structure
-
+"""
 customer_insights_project/
 │
 ├── setup_project.py
@@ -34,7 +34,7 @@ customer_insights_project/
 │   └── prediction_report.txt            # Classifier performance report
 │
 └── README.md                             # Project overview and how to run it
-
+"""
 
 🛠️ Project Setup
 Option 1: Manual Setup
